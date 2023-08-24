@@ -1,5 +1,7 @@
 <div align="center">
-      ![API-Pythaoff](/Documentos/Logo_PythaOff.png)
+      
+![API-Pythaoff](/Documentos/Logo_PythaOff.png)
+      
 </div>
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://gitlab.com/gurst6/pythaoff-ness)
@@ -63,23 +65,26 @@ Deve ser desenvolvido um pipeline de dados e analytics, a fim de manter um DW e 
 ## 1.7 - Apresentação da Evolução do Projeto :camera:
 | Sprint 1  | Sprint 2 | Sprint 3 | Sprint 4 |
 |--------- |--------- |--------- |--------- |
-|<p>:white_check_mark:<a href="#sprint01">Done! </a></p>|<p>:white_check_mark:<a href="#sprint02">Done! </a></p>|<p>:white_check_mark:<a href="#sprint03">Done!</a></p>|<p>:warning:<a href="#sprint04">Loading...</a></p>|
+|<p>:white_check_mark:<a href="#sprint01">Done! </a></p>|<p>:white_check_mark:<a href="#sprint02">Done! </a></p>|<p>:white_check_mark:<a href="#sprint03">Done!</a></p>|<p>:white_check_mark:<a href="#sprint04">Done!<a></p>|
 
 <a name="bd"></a>
 # 2 - Modelo do Banco de Dados
 ## 2.1 - M.E.R (Modelo Entidade Relacionamento):
 <div align="center">
-      ![BD](/Documentos/new_oltp.png)
+
+![BD](/Documentos/new_oltp.png)
 </div>
 
 ## 2.2 - Modelagem do Data Warehouse:
 <div align="center">
-      ![DW](/Documentos/new_dw.png)
+      
+![DW](/Documentos/new_dw.png)
 </div>
 
 ## 2.2 - Tabela Fato acesso após transformação:
 <div align="center">
-      ![DW](/Documentos/factAccess.png)
+      
+![DW](/Documentos/factAccess.png)
 </div>
 
 <a name="ETL"></a>
@@ -89,13 +94,15 @@ Deve ser desenvolvido um pipeline de dados e analytics, a fim de manter um DW e 
 CI/CD, continuous integration/continuous delivery, é um método para entregar aplicações com frequência aos clientes. Para isso, é aplicada a automação nas etapas do desenvolvimento de aplicações. Os principais conceitos atribuídos a esse método são integração, entrega e implantação contínuas. Com o CI/CD, é possível solucionar os problemas que a integração de novos códigos pode causar para as equipes de operações e desenvolvimento. Diante dessa perspectiva, nesse projeto foi utilizado conceito de conteinerização do Docker, que nada mais é que uma plataforma aberta para criação, execução e publicação (deploy) de containers. Um Container é a forma de empacotar sua aplicação e suas dependências (bibliotecas) de forma padronizada. Veja na imagem abaixo o script de configuração do CI/CD, definindo os stages, jobs e outras dependencias que fazem parte da pipeline:
 
 <div align="center">
-      ![ETL](/Documentos/cicd.png)
+      
+![ETL](/Documentos/cicd.png)
 </div>
 
 
 ## 3.2 - Processo de ETL finalizado:
 <div align="center">
-      ![ETL](/Documentos/etl_finalizado.png)
+      
+![ETL](/Documentos/etl_finalizado.png)
 </div>
 
 ## 4 - Backlog do Projeto:
@@ -138,7 +145,8 @@ CI/CD, continuous integration/continuous delivery, é um método para entregar a
 <a name="tecnologia"></a>
 ## 5 - Tecnologias Utilizadas:
 <div align="center">
-      ![Tecnologias](/Documentos/tecnologias_utilizadas.png)
+      
+![Tecnologias](/Documentos/tecnologias_utilizadas.png)
 </div>
 
 
@@ -147,7 +155,7 @@ CI/CD, continuous integration/continuous delivery, é um método para entregar a
 
  * GABRIEL DE QUEIROZ CORDEIRO **| Product Owner |**
  * SABRINA RAFAELA CALADO MARIANO **| Dev Team |**
- * GUSTAVO RIBEIRO DOS SANTOS **| Master |**
+ * GUSTAVO RIBEIRO DOS SANTOS **| Scrum Master |**
  * ARTHUR CARDOSO RINALDI DA SILVA **| Dev Team |**
  * PERILO CARVALHO DE OLIVEIRA JUNIOR **| Dev Team |**
  * VINICIUS FERNANDES DE LIMA **| Dev Team |**
