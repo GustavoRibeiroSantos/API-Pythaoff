@@ -10,11 +10,10 @@
 <div align="center">
       <h2>Menu</h2>
       <p>
-            :small_blue_diamond:<a href="#introducao">Introdução</a>
-            :small_blue_diamond:<a href="#bd">Modelo do Banco de Dados</a>
-            :small_blue_diamond:<a href="#estrutura">Estrutura do projeto</a>
-            :small_blue_diamond:<a href="#tecnologia">Tecnologias</a>
-            :small_blue_diamond:<a href="#equipe">Equipe</a>
+            :small_blue_diamond:<a href="#introducao">Introduction</a>
+            :small_blue_diamond:<a href="#bd">Database model</a>
+            :small_blue_diamond:<a href="#estrutura">Project Structure</a>
+            :small_blue_diamond:<a href="#tecnologia">Tecnologies</a>
       </p>
 </div>
 
@@ -24,7 +23,7 @@
 GitLab para desenvolvimento do Projeto Integrador do 5º Semestre - Banco de dados FATEC SJC
 
 
-<a name="introducao"></a>
+<a name=“introducao”></a>
 # 1 - Introdução
 ## 1.2 - Quem somos :question:
 Olá! Muito prazer! 
@@ -37,61 +36,61 @@ como clientes. Precisamos ajustar o banco de dados, pensando em um grande proces
 integração contínua entre os ambientes. Adicionar na solução atual um banco de dados não relacional para armazenar os chats e os logs. 
 Deve ser desenvolvido um pipeline de dados e analytics, a fim de manter um DW e um modelo OLAP para visualização e análise de dados.
 
-## 1.4 - Cronograma :calendar:
-* 16/08/2021 até 22/08/2021 - Kick Off do Projeto
-* 30/08/2021 até 19/09/2021 - Sprint 1
-* 20/09/2021 até 10/10/2021 - Sprint 2
-* 18/10/2021 até 07/10/2021 - Sprint 3
-* 08/11/2021 até 28/11/2021 - Sprint 4
-* 29/11/2021 até xx/12/2021 - Sprint Apresentação Final
-* xx/xx/2021 até xx/xx/2021 - Sprint Feira de Soluções
+## 1.4 - Schedule :calendar:
+* 16/08/2021 to 22/08/2021 - Project Kick Off
+* 30/08/2021 to 19/09/2021 - Sprint 1
+* 20/09/2021 to 10/10/2021 - Sprint 2
+* 10/18/2021 to 10/07/2021 - Sprint 3
+* 08/11/2021 to 28/11/2021 - Sprint 4
+* 29/11/2021 to xx/12/2021 - Sprint Final Presentation
+* xx/xx/2021 to xx/xx/2021 - Solutions Fair Sprint
 
 ## 1.5 - Requisitos Funcionais
 
-| Requisitos não funcionais             |  Código |                                                                                                                                    
+| Requisitos não funcionais | Código |                                                                                                                                    
 | ----------------------------------|---------|
-|Rotina de Logs             |RF01     |
-|Rotina de Chat                |RF02     |
-|CI/CD        |RF03     | 
-|Dashboards        |RF04     | 
+|Rotina de Logs |RF01 |
+|Rotina de Chat |RF02 |
+|CI/CD |RF03 | 
+|Dashboards |RF04 | 
 ## 1.6 - Requisitos Não Funcionais
 
-| Requisitos não funcionais             |  Código |                                                                                                                                    
+| Requisitos não funcionais | Código |                                                                                                                                    
 | ----------------------------------|---------|
-|Documentação bem estruturada             |RF01     |
-|Facilidade de uso                |RF02     |
-|Escalabilidade        |RF03     |
+|Documentação bem estruturada |RF01 |
+|Facilidade de uso |RF02 |
+|Escalabilidade |RF03 |
 
 ## 1.7 - Apresentação da Evolução do Projeto :camera:
-| Sprint 1  | Sprint 2 | Sprint 3 | Sprint 4 |
+| Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 |
 |--------- |--------- |--------- |--------- |
-|<p>:white_check_mark:<a href="#sprint01">Done! </a></p>|<p>:white_check_mark:<a href="#sprint02">Done! </a></p>|<p>:white_check_mark:<a href="#sprint03">Done!</a></p>|<p>:white_check_mark:<a href="#sprint04">Done!<a></p>|
+|<p>:white_check_mark:<a href=“#sprint01”>Done! </a></p>|<p>:white_check_mark:<a href=“#sprint02”>Done! </a></p>|<p>:white_check_mark:<a href=“#sprint03”>Done!</a></p>|<p>:white_check_mark:<a href=“#sprint04”>Done!<a></p>|
 
-<a name="bd"></a>
+<a name=“bd”></a>
 # 2 - Modelo do Banco de Dados
 ## 2.1 - M.E.R (Modelo Entidade Relacionamento):
-<div align="center">
+<div align=“center”>
 
 ![BD](/Documentos/new_oltp.png)
 </div>
 
 ## 2.2 - Modelagem do Data Warehouse:
-<div align="center">
+<div align=“center”>
       
 ![DW](/Documentos/new_dw.png)
 </div>
 
 ## 2.2 - Tabela Fato acesso após transformação:
-<div align="center">
+<div align=“center”>
       
 ![DW](/Documentos/factAccess.png)
 </div>
 
 <a name="ETL"></a>
-# 3. - Estrutura do projeto
+# 3 - Project structure
 
 ## 3.1 - CI/CD
-CI/CD, continuous integration/continuous delivery, é um método para entregar aplicações com frequência aos clientes. Para isso, é aplicada a automação nas etapas do desenvolvimento de aplicações. Os principais conceitos atribuídos a esse método são integração, entrega e implantação contínuas. Com o CI/CD, é possível solucionar os problemas que a integração de novos códigos pode causar para as equipes de operações e desenvolvimento. Diante dessa perspectiva, nesse projeto foi utilizado conceito de conteinerização do Docker, que nada mais é que uma plataforma aberta para criação, execução e publicação (deploy) de containers. Um Container é a forma de empacotar sua aplicação e suas dependências (bibliotecas) de forma padronizada. Veja na imagem abaixo o script de configuração do CI/CD, definindo os stages, jobs e outras dependencias que fazem parte da pipeline:
+CI/CD, continuous integration/continuous delivery, is a method for frequently delivering applications to customers. To do this, automation is applied to the stages of application development. The main concepts attributed to this method are continuous integration, delivery and deployment. With CI/CD, it is possible to solve the problems that integrating new code can cause for the operations and development teams. From this perspective, this project used Docker's containerization concept, which is nothing more than an open platform for creating, executing and deploying containers. A Container is a way of packaging your application and its dependencies (libraries) in a standardized way. See the image below for the CI/CD configuration script, defining the stages, jobs and other dependencies that are part of the pipeline:
 
 <div align="center">
       
@@ -99,15 +98,15 @@ CI/CD, continuous integration/continuous delivery, é um método para entregar a
 </div>
 
 
-## 3.2 - Processo de ETL finalizado:
+## 3.2 - ETL process completed:
 <div align="center">
       
 ![ETL](/Documentos/etl_finalizado.png)
 </div>
 
-## 4 - Backlog do Projeto:
+## 4 - Project Backlog:
 
-<a name="sprint01"></a>
+<a name=“sprint01”></a>
 ### Sprint :one: : MVP(Relatório parcial, CI parcial, DW parcial)
 * Modelagem e criação da DW para a primeira entrega;
 * Utilização do projeto do 3º;
@@ -116,7 +115,7 @@ CI/CD, continuous integration/continuous delivery, é um método para entregar a
 * Criação do front-end com o primeiro dashboard;
 * Configuração inicial de CI.
 
-<a name="sprint02"></a>
+<a name=“sprint02”></a>
 ### Sprint :two: : MVP(Escalabilidade e processamento de dados, relatório parcial)
 * Modelagem DW incremental;
 * Melhorar desempenho para recebimento de dados e escalabilidade do DW;
@@ -126,7 +125,7 @@ CI/CD, continuous integration/continuous delivery, é um método para entregar a
 * Teste de desempenho;
 * Configuração de CI.
 
-<a name="sprint03"></a>
+<a name=“sprint03”></a>
 ### Sprint :three: : MVP(Permissões, relatórios parciais, chat, desempenho)
 * Criar login e níveis de acesso;
 * Criação dos dashboards:
@@ -136,27 +135,16 @@ CI/CD, continuous integration/continuous delivery, é um método para entregar a
 * Configuração de CI.
 
 
-<a name="sprint04"></a>
+<a name=“sprint04”></a>
 ### Sprint :four: : (Relatórios, desempenho)
 * Criação do dashboard:
   * Registro do tempo de participação no curso: tempo online executando as atividades;
 * Teste de desempenho.
 
-<a name="tecnologia"></a>
+<a name=“tecnologia”></a>
 ## 5 - Tecnologias Utilizadas:
-<div align="center">
+<div align=“center”>
       
 ![Tecnologias](/Documentos/tecnologias_utilizadas.png)
 </div>
-
-
-<a name="equipe"></a>
-# 6 - INTEGRANTES
-
- * GABRIEL DE QUEIROZ CORDEIRO **| Product Owner |**
- * SABRINA RAFAELA CALADO MARIANO **| Dev Team |**
- * GUSTAVO RIBEIRO DOS SANTOS **| Scrum Master |**
- * ARTHUR CARDOSO RINALDI DA SILVA **| Dev Team |**
- * PERILO CARVALHO DE OLIVEIRA JUNIOR **| Dev Team |**
- * VINICIUS FERNANDES DE LIMA **| Dev Team |**
 
