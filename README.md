@@ -18,7 +18,7 @@
 </div>
 
 
-# <h1>Projeto Integrador 5º Semestre BD - Grupo PythaOff :no_mobile_phones:</h1>
+# <h1>Integrative Project 5th Semester BD - PythaOff Group :no_mobile_phones:</h1>
 
 GitLab para desenvolvimento do Projeto Integrador do 5º Semestre - Banco de dados FATEC SJC
 
