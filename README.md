@@ -24,7 +24,7 @@ GitLab for the development of the 5th Semester Integrator Project - Database FAT
 
 <a name=“introducao”></a>
 # 1 - Introduction
-## 1.2 - Who We are :question:
+## 1.2 - Who are we :question:
 Hello, nice to meet you! 
 We are the PythaOff group, a team of students from the 5th semester of the Database course at FATEC São José dos Campos. This group aims to develop a project (PI) to solve a problem proposed by a partner client of the institution.
 
