@@ -24,18 +24,18 @@ GitLab for the development of the 5th Semester Integrator Project - Database FAT
 
 <a name=“introducao”></a>
 # 1 - Introduction
-## 1.2 - Who are we :question:
+## 1.1 - Who are we :question:
 Hello, nice to meet you! 
 We are the PythaOff group, a team of students from the 5th semester of the Database course at FATEC São José dos Campos. This group aims to develop a project (PI) to solve a problem proposed by a partner client of the institution.
 
-## 1.3 - Problem :exclamation:
+## 1.2 - Problem :exclamation:
 Develop a data solution aimed at distance learning for the management and supply of knowledge, being able to provide support for the most varied 
 architectures, aligned with the strategic objectives to be achieved by the organizations we serve as clients. 
 as clients. We need to adjust the database, thinking in terms of large data processing with scalability gains and 
 continuous integration between environments. Adicionar na solução atual um banco de dados não relacional para armazenar os chats e os logs. 
 A data and analytics pipeline must be developed in order to maintain a DW and an OLAP model for data visualization and analysis.
 
-## 1.4 - Schedule :calendar:
+## 1.3 - Schedule :calendar:
 * 16/08/2021 to 22/08/2021 - Project Kick Off
 * 30/08/2021 to 19/09/2021 - Sprint 1
 * 20/09/2021 to 10/10/2021 - Sprint 2
@@ -44,7 +44,7 @@ A data and analytics pipeline must be developed in order to maintain a DW and an
 * 29/11/2021 to xx/12/2021 - Sprint Final Presentation
 * xx/xx/2021 to xx/xx/2021 - Solutions Fair Sprint
 
-## 1.5 - Functional requirements
+## 1.4 - Functional requirements
 
 | Functional requirements | Code |                                                                                                                                    
 | ----------------------------------|---------|
@@ -52,7 +52,7 @@ A data and analytics pipeline must be developed in order to maintain a DW and an
 |Chat Routine |RF02 |
 |CI/CD |RF03 | 
 |Dashboards |RF04 | 
-## 1.6 - Requisitos Não Funcionais
+## 1.5 - Requisitos Não Funcionais
 
 | Non-functional requirements | Code |                                                                                                                                    
 | ----------------------------------|---------|
@@ -60,7 +60,7 @@ A data and analytics pipeline must be developed in order to maintain a DW and an
 |User-friendly |RF02 |
 |Scalability |RF03 |
 
-## 1.7 - Project Progress Presentation :camera:
+## 1.6 - Project Progress Presentation :camera:
 | Sprint 1 | Sprint 2 | Sprint 3 | Sprint 4 |
 |--------- |--------- |--------- |--------- |
 |<p>:white_check_mark:<a href=“#sprint01”>Done! </a></p>|<p>:white_check_mark:<a href=“#sprint02”>Done! </a></p>|<p>:white_check_mark:<a href=“#sprint03”>Done!</a></p>|<p>:white_check_mark:<a href=“#sprint04”>Done!<a></p>|
@@ -79,7 +79,7 @@ A data and analytics pipeline must be developed in order to maintain a DW and an
 ![DW](/Documentos/new_dw.png)
 </div>
 
-## 2.2 - Access fact table after transformation:
+## 2.3 - Access fact table after transformation:
 <div align=“center”>
       
 ![DW](/Documentos/factAccess.png)
